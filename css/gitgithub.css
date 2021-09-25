@@ -6,7 +6,7 @@ main {
 
 main h1 {
   text-align: center;
-  color: #fc88de;
+  color: #b53a25;
 }
 
 main .block {
@@ -14,38 +14,38 @@ main .block {
 }
 
 main .block__heading {
-  color: white;
+  color: #a88771;
 }
 
 main .block__paragraph {
   padding: 1rem 0;
-  color: #93c2db;
+  color: #fffbeb;
   text-align: start;
 }
 
 main .block .link {
   padding: 0.5rem 0;
   display: block;
-  color: #9c4668;
+  color: #b53a25;
 }
 
 main .block .link:hover {
-  color: #fc88de;
+  color: #f74700;
 }
 
 main .block .inline-link {
-  color: #9c4668;
+  color: #b53a25;
 }
 
 main .block .inline-link:hover {
-  color: #fc88de;
+  color: #f74700;
 }
 
 main .block pre {
   padding: 1rem;
   margin: 1rem 0;
-  background-color: rgba(147, 197, 219, 0.07);
-  color: #93c2db;
+  background-color: #48665a;
+  color: #fffcff;
 }
 
 main .block pre code {
@@ -54,7 +54,7 @@ main .block pre code {
 
 main .block .inline-code {
   padding: 0.3rem;
-  background-color: rgba(147, 197, 219, 0.07);
+  background-color: #48665a;
 }
 
 main .block img {
@@ -67,7 +67,7 @@ main .block ul {
 }
 
 main .block ul li {
-  color: #93c2db;
+  color: #fffbeb;
   padding: 0.5rem 0;
 }
 
