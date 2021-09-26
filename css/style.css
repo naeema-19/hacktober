@@ -73,7 +73,10 @@ main .left-side .hero-text {
 }
 
 main .left-side .hero-text .link {
-  color: #f2d8cb;
+  color: #d1784b;
+}
+main .left-side .hero-text .link:hover {
+  color: #bd6539;
 }
 
 main .right-side {
@@ -125,6 +128,11 @@ main .right-side .wrapper .box .inner-box {
 
 main .right-side .wrapper .box .inner-box .link {
   color: #B53A25;
+  font-weight: bolder;
+}
+
+main .right-side .wrapper .box .inner-box .link:hover {
+  color: #f74700;
   font-weight: bolder;
 }
 
