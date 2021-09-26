@@ -29,8 +29,7 @@ main {
           align-items: stretch;
 }
 
-main .left-side {
-  padding-top: 150px;
+  main .left-side {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   display: -webkit-box;
@@ -40,12 +39,12 @@ main .left-side {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: top;
-      -ms-flex-align: top;
-          align-items: top;
-  -webkit-box-pack: top;
-      -ms-flex-pack: top;
-          justify-content: top;
+  -webkit-box-align: ;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 
 }
 
