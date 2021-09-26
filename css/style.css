@@ -162,7 +162,7 @@ main .right-side .wrapper .what {
   }
 }
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 1099px) {
   main .left-side .hero-logo .hacktohgfdsgberfest-logo {
   height: auto;
   width: 80vw;
