@@ -170,6 +170,9 @@ main .right-side .wrapper .what {
   
   
 }
+  main .right-side{
+  padding-top: 2rem;
+}
 }
 
 footer {
