@@ -30,6 +30,7 @@ main {
 }
 
   main .left-side {
+  padding-top: 150px;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   display: -webkit-box;
@@ -39,14 +40,16 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: ;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
 
 }
+
+
 
 main .left-side .hero-logo {
   padding: -2rem 2rem 2rem 2rem;
@@ -55,7 +58,8 @@ main .left-side .hero-logo {
 main .left-side .hero-logo .hacktohgfdsgberfest-logo {
   height: auto;
   width: 40vw;
-  top: -50px;
+  top: -100px;
+
   
 }
 
@@ -136,6 +140,24 @@ main .right-side .wrapper .what {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  main .left-side {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: ;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+}
   main .left-side .hero-logo {
     padding: 0 1rem 1rem 1rem;
   }
@@ -163,7 +185,30 @@ main .right-side .wrapper .what {
   }
 }
 
+@media (min-width: 1099px;) and (max-width:1300px;) {
+  main .left-side {
+  padding-top: 150px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+
+}
+}
+
 @media (min-width: 300px) and (max-width: 1099px) {
+
   main .left-side .hero-logo .hacktohgfdsgberfest-logo {
   height: auto;
   width: 80vw;
@@ -171,8 +216,31 @@ main .right-side .wrapper .what {
   
   
 }
-  main .right-side{
+
+  main .left-side {
+    padding-top: 10px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: ;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+}
+main .right-side{
   padding-top: 2rem;
+}
+main .right-side .wrapper div{
+  padding-top: 3rem;
 }
 }
 
@@ -199,3 +267,4 @@ footer a {
   color: #fc88de;
 }
 /*# sourceMappingURL=style.css.map */
+
