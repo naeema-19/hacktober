@@ -162,22 +162,15 @@ main .right-side .wrapper .what {
   }
 }
 
-@media (max-width: 768px) {
-  main {
-    padding: 2rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .left-side .hero-logo {
-    padding: 1rem 1rem 1rem 1rem;
-  }
-  main .left-side .hero-logo img {
-    width: 100vw;
-    height: auto;
-
-  }
+@media (min-width: 300px) and (max-width: 768px) {
+  main .left-side .hero-logo .hacktohgfdsgberfest-logo {
+  height: auto;
+  width: 80vw;
+  top: -50px;
+  
+  
+}
+}
 
 footer {
   opacity: .6;
