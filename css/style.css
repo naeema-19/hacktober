@@ -116,13 +116,14 @@ main .right-side .wrapper .box {
 
 main .right-side .wrapper .box p {
   font-weight: 700;
+  padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
 
 main .right-side .wrapper .box .inner-box {
   font-size: 0.9rem;
   background-color: #2B3531;
-  padding: 1rem;
+  padding: 2rem;
   color: #fffbeb;
 }
 
