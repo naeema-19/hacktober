@@ -69,7 +69,7 @@ main .left-side .hero-text {
   padding: 0rem;
   text-align: justify;
   font-weight: bolder;
-  font-style: oblique 15deg;
+  /*font-style: oblique 15deg;*/
 }
 
 main .left-side .hero-text .link {
